@@ -1,0 +1,116 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f1f3f6;
+}
+/* Logo style */
+.navbar h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+/* Whole website font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #f028be;
+    color: white;
+    padding: 15px 20px;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Products */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.product {
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #fb641b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e55300;
+}
+
+/* Center cart content */
+#cartItems {
+    text-align: center;
+}
+
+#total {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Center button */
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Form */
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+}
